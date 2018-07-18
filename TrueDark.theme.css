@@ -1020,3 +1020,16 @@ animation-timing-function: linear;
    animation-iteration-count: infinite;
    animation-timing-function: linear;
 }
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #1f2123;
+    color: hsla(0,0%,100%,.8);
+}
+.theme-dark .body-3ND3kc {
+    background-color: #1f2123;
+}
+.topSectionPlaying-1J5E4n {
+    background: #348eef;
+}
+.headerPlaying-j0WQBV {
+    background: #348eef;
+}
