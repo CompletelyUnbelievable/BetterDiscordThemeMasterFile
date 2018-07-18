@@ -1,4 +1,4 @@
-//META{"name":"BlueLine","description":"TrueDark_With_BlueLine","author":"xNightWulf","version":"1.3.3"}*//{}
+//META{"name":"BlueLine","description":"TrueDark_With_BlueLine","author":"xNightWulf","version":"1.4"}*//{}
 
 .guilds-wrapper {
     background-color: #1f2123;
@@ -339,6 +339,7 @@
 	top:0;
 	opacity:0.5;
 	z-index:0;
+	right: -8px;
 }
 #friends .friends-table .friends-row .friends-column-status .status-text{
 	color:rgba(255, 255, 255, 0.5);
@@ -470,6 +471,35 @@
     justify-content:center!important;
     position:relative!important;
     flex-direction:column!important;
+}
+#friends .friends-table .friends-row:hover .friends-column-name .avatar-small {
+    opacity: 1;
+    box-shadow: none;
+}
+#friends .friends-table .friends-row .friends-column-name .avatar-small {
+    top: 14px;
+    left: 8px;
+    width: 85px;
+    height: 85px;
+    background-size: 85px 85px;
+    opacity: 0.6;
+    transition: opacity 500ms, transform .2s linear, box-shadow .2s linear;
+    transform: scale(0.97) perspective(1px);
+}
+.theme-dark .inner-zqa7da {
+    background-color: hsla(218,5%,47%,.3);
+    border: 3px solid #075ad4;
+}
+.isMentionedCozy-3isp7y:after {
+    background: rgb(7, 90, 212);
+    border-left: 4px solid #075ad4;
+    border-radius: 3px 0 0 3px;
+    bottom: 0;
+    content: " ";
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 2px;
 }
 .theme-dark .inner-3if5cm {
     background-color: hsl(0, 0%, 13%);
@@ -1954,4 +1984,214 @@ background-color:#1f2123;
 .theme-dark .item-1XYaYf:hover, .theme-dark .itemSubMenu-3ZgIw- {
     background: #151718;
     color: #69696b;
+}
+.channels-Ie2l6A {
+    -ms-flex-negative: 0;
+    background-color: #1f2123;
+    flex-shrink: 0;
+    width: 240px;
+}
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: #1f2123;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+.container-PNkimc {
+    background-color: #1f2123;
+    contain: layout;
+    min-height: 0;
+    position: relative;
+}
+.theme-dark .members-1998pB {
+    background-color: #1f2123;
+}
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+    background-color: rgb(31, 33, 35);
+    border: 3px solid #075ad4;
+    border-radius: 7px;
+}
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+    background-color: rgb(31, 33, 35);
+    border: 3px solid #075ad4;
+    border-radius: 7px;
+}
+.wrapperCollapsed-3Fbxl6, .wrapperDefault-10Jfvz, .wrapperHovered-28fu1D, .wrapperHoveredCollapsed-1PADEo, .wrapperMuted-3KeA2M, .wrapperUnread-1JPWj3 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 20px;
+    padding-left: 18px;
+    padding-right: 8px;
+    position: relative;
+    border: 3px solid #075ad4;
+    border-radius: 7px;
+    text-align: center;
+}
+.theme-dark .embedPill-1Zntps {
+    background-color: #075ad4 !important;
+}
+.theme-dark .membersGroup-v9BXpm {
+    color: hsla(0,0%,100%,.4);
+    border: 3px solid #075ad4;
+    border-radius: 7px;
+    text-align: center;
+    height: 30px;
+    padding-top: 4px;
+}
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
+    background-color: #1f2123;
+}
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+    background-color: #1f2123;
+}
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+    background-color: #1f2123;
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+    background-color: #272727 !important;
+    border-color: #303030 !important;
+}
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-color: transparent;
+}
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(7, 90, 212, 0.24);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #1f2123;
+    color: hsla(0,0%,100%,.8);
+}
+.theme-dark .inner-zqa7da {
+    background-color: hsl(210, 6%, 13%) !important;
+    border: 3px solid #075ad4;
+}
+   @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+}
+.guilds-wrapper .guilds .guild .avatar-small:hover {
+   animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225);
+   animation-direction: alternate;
+   }
+@keyframes square-to-circle {
+  0%  {
+    border-radius:20% 20% 20% 20%;
+    
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 20% 20%;
+  }
+  75%  { 
+    border-radius:50% 50% 50% 20%;
+  }
+  100% {  
+    border-radius:50%;
+  }
+}
+.header-toolbar button:hover  {
+   animation: shake .5s;
+   animation-iteration-count: 1;
+animation-timing-function: linear; 
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-2px);
+  }
+
+  40% {
+    transform: translateX(2px);
+  }
+
+  60% {
+    transform: translateX(-2px);
+  }
+
+  80% {
+    transform: translateX(2px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.container-iksrDt .button-1aU9q1 svg:hover {
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+  
+    @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+}
+.guilds-wrapper .guilds .guild .avatar-small:hover {
+   animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225);
+   animation-direction: alternate;
+   }
+.header-toolbar button:hover  {
+   animation: shake .5s;
+   animation-iteration-count: 1;
+animation-timing-function: linear; 
+}
+.chat .avatar-large:hover {
+    animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225);
+    animation-direction: alternate;
+}
+.guilds-wrapper .guilds .guild .guild-inner:hover {
+   animation-name: square-to-circle;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+.container-iksrDt .button-1aU9q1 svg:hover {
+   animation-name: spin;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+[class*="avatar-large animate"]:hover {
+   animation-name: square-to-circle;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}  
+[class*="avatar-small"]:hover {
+   animation-name: square-to-circle;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+} 
+.iconInactive-g2AXfB:hover {
+   animation: shake .5s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear; 
+}	
+[name*="Gear"]:hover {
+   animation-name: spin;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+.avatarSpeaking-1wJCNq {
+    -webkit-box-shadow: 0 0 0 2px #43b581, inset 0 0 0 1.5px #2f3136;
+    box-shadow: 0 0 0 2px #43b581, inset 0 0 0 1.5px #2f3136;
 }
