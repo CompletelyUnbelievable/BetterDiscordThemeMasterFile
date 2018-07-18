@@ -1639,3 +1639,9 @@ background: transparent !important;
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
     color: #ffffff;
 }
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+    background-color: rgba(43, 43, 43, 0);
+}
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: hsl(294, 80%, 53%);
+}
