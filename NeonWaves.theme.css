@@ -1534,3 +1534,105 @@ background: transparent !important;
     background: #de20ce;
     color: #fff;
 }
+.iconInactive-g2AXfB:hover {
+    opacity: 1;
+}
+.iconInactive-g2AXfB {
+    opacity: 1;
+}
+.theme-dark .typing-2GQL18 {
+    background-color: rgba(54, 57, 63, 0);
+}
+.private-channels .channel .channel-name {
+    color: #f6f6f7;
+    opacity: 1;
+}
+.guilds-wrapper .guilds .guild .guild-inner:hover {
+   animation-name: square-to-circle;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+.container-iksrDt .button-1aU9q1 svg:hover {
+   animation-name: spin;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+[class*="avatar-large animate"]:hover {
+   animation-name: square-to-circle;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}  
+[class*="avatar-small"]:hover {
+   animation-name: square-to-circle;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+} 
+.iconInactive-g2AXfB:hover {
+   animation: shake .5s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear; 
+}	
+[name*="Gear"]:hover {
+   animation-name: spin;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:20% 20% 20% 20%;
+    
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 20% 20%;
+  }
+  75%  { 
+    border-radius:50% 50% 50% 20%;
+  }
+  100% {  
+    border-radius:50%;
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-2px);
+  }
+
+  40% {
+    transform: translateX(2px);
+  }
+
+  60% {
+    transform: translateX(-2px);
+  }
+
+  80% {
+    transform: translateX(2px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
