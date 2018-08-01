@@ -1,4 +1,4 @@
-//META{"name":"Triangular_Space","description":"A_triangular_purple_space_theme","author":"xNightWulf","version":"1.1"}*//{}
+//META{"name":"Triangular_Space","description":"A_triangular_purple_space_theme","author":"xNightWulf","version":"1.2"}*//{}
 /*Transparency*/
 #voice-connection, 
 #friends, 
@@ -2585,4 +2585,71 @@ transition: all 0.5s;
 }
 .theme-dark .markup-2BOw-j code.inline {
     background: rgba(119, 13, 220, 0.25);
+}
+::selection {
+        background: rgba(119, 13, 220, 0.25) !important;
+}
+.newMessagesBar-mujexs {
+    background-color: rgb(119, 13, 220);
+}
+.newMessagesBar-mujexs:hover {
+    background-color: #6609bf;
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
+    color: #fff;
+    border: 2px solid #770ddc;
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
+    background: #770ddc;
+    opacity: 1;
+}
+.newMessagesBar-mujexs button:last-child {
+    color: #ffffff;
+}
+.theme-dark .jumpToPresentBar-9P20AM {
+    background-color: rgb(119, 13, 220);
+}
+.theme-dark .jumpToPresentBar-9P20AM:hover {
+    background-color: #6609bf !important;
+}
+.jumpToPresentBar-9P20AM {
+    color: hsl(0, 0%, 100%);
+}
+.jumpToPresentBar-9P20AM button:last-child {
+    color: hsl(0, 0%, 100%);
+}
+#friends .friends-table .friends-row .friends-column-status .status {
+    width: 320px !important;
+    height: 20px !important;
+    border-radius: 5px 5px 0 0 !important;
+    position: absolute !important;
+    opacity: .5;
+    right: -8px;
+}
+#friends .friends-table .friends-row:hover .friends-column-status .idle-3DEnRT {
+        opacity:1;
+}
+#friends .friends-table .friends-row:hover .friends-column-status .online-2S838R {
+        opacity:1;
+}
+#friends .friends-table .friends-row:hover .friends-column-status .streaming-2_dnHe {
+        opacity:1;
+}
+#friends .friends-table .friends-row:hover .friends-column-status .dnd-1_xrcq {
+        opacity:1;
+} 
+#friends .friends-table .friends-row:hover .friends-column-status .offline-3qoTek {
+        opacity:1;
+} 
+#friends .friends-table .friends-row .friends-column-status .status  {
+    background-image: url(none);
+}
+.theme-dark .isMentioned-N-h9aa {
+    background: linear-gradient(124deg, rgba(255, 36, 0, 0.25), rgba(232, 29, 29, 0.25), rgba(232, 183, 29, 0.25), rgba(227, 232, 29, 0.25), rgba(29, 232, 64, 0.25), rgba(29, 221, 232, 0.25), rgba(43, 29, 232, 0.25), rgba(221, 0, 243, 0.25), rgba(221, 0, 243, 0.25)) !important;
+}
+.theme-dark .guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after, .theme-dark .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
+    background-color: #770ddc;
+}
+.bd-blue .mention {
+    color: #ff0000 !important;
 }
