@@ -1,4 +1,4 @@
-//META{"name":"ThemeFixer","description":"Fixes_All_Themes_Including_Themes_That_Have_Been_Broke_For_Ages","author":"xNightWulf","version":"1.4.1"}*//{}
+//META{"name":"ThemeFixer","description":"Fixes_All_Themes_Including_Themes_That_Have_Been_Broke_For_Ages","author":"xNightWulf","version":"1.4.2"}*//{}
 /*To change the brightness change the rgba(0,0,0,0.18) at the bottom*/
 /*Transparency*/
 #voice-connection, 
@@ -58,7 +58,12 @@
 .theme-dark .typing-2GQL18,
 .search-bar.search-bar-light,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
-.theme-dark .members-1998pB{
+.theme-dark .members-1998pB,
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3,
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu form ,
+.theme-dark .guildsWrapper-5TJh6A{
   background: transparent !important;
 }
 .theme-dark .card-2WxYqG {
