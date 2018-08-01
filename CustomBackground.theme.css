@@ -1,5 +1,5 @@
 //META{"name":"EasyBackGround","description":"Add_a_background_image_to_Discord","author":"xNightWulf","version":"1.0"}*//{}
-/*To change the brightness change the rgba(0,0,0,0.18) at the bottom*/
+/*To change the brightness change the rgba(0,0,0,0.18) at the bottom, to add the image, add the image URL where it says "IMAGEurlHERE"*/
 /*Transparency*/
 #voice-connection, #friends,  .friends-header,  .friends-table,  .guilds-wrapper,  .guild-header header,  .channels-wrap,  .private-channels .search-bar,  .private-channels,
 .guild-channels, .account,  .friend-table-add-header, .chat,  .content,  .title-wrap:not(.search-bar),  .messages-wrapper,  .messages .divider span,  .messages .divider:before,
