@@ -1,4 +1,4 @@
-//META{"name":"Triangular_Space","description":"A_triangular_purple_space_theme","author":"xNightWulf","version":"1.0"}*//{}
+//META{"name":"Triangular_Space","description":"A_triangular_purple_space_theme","author":"xNightWulf","version":"1.1"}*//{}
 /*Transparency*/
 #voice-connection, 
 #friends, 
@@ -2428,4 +2428,161 @@ transition: all 0.5s;
 .avatar-small.animate:hover{
     border:solid 2px #770ddc;
     transition: all 0.5s;
+}
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: transparent;
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    border-radius: 15px 5px 15px 5px !important;
+    box-shadow: 0 0 3px 3px #770ddc !important;
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4:hover{
+   animation-name: square-to-circle;
+   animation-duration:1.5s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:15px 5px 15px 5px;
+    
+  }
+  25%  {
+    border-radius:25px 5px 15px 5px;
+  }
+  50%  {
+    border-radius:25px 25px 15px 5px;
+  }
+  75%  { 
+    border-radius:25px 25px 25px 5px;
+  }
+  100% {  
+    border-radius:25px 25px 25px 25px;
+  }
+}
+@keyframes square-to-circle1 {
+  0%  {
+    border-radius:11px 4px 11px 4px;
+    
+  }
+  25%  {
+    border-radius:20px 4px 11px 4px;
+  }
+  50%  {
+    border-radius:20px 20px 11px 4px;
+  }
+  75%  { 
+    border-radius:20px 20px 20px 4px;
+  }
+  100% {  
+    border-radius:20px 20px 20px 20px;
+  }
+}
+.image-33JSyf:hover {
+   animation-name: square-to-circle1;
+   animation-duration:1.5s;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
+    background: #770ddc;
+}
+.theme-dark .chat-3bRxxu {
+    background-color: transparent;
+}
+.theme-dark .content-yTz4x3 {
+    background-color: transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: transparent;
+}
+.theme-dark .chat-3bRxxu form {
+    background-color: transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: #770ddc;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 25%);
+    border-color: #770ddc;
+}
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background: #770ddc;
+}
+.guild-1EfMGQ.unread-qLkInr:before {
+    border-radius: 5px;
+    height: 30px;
+    margin-top: -13px;
+}
+.theme-dark .divider-3gKybi span {
+    background-color: #422261;
+}
+.theme-dark .divider-3gKybi span {
+    background-color: transparent;
+    border: 2px solid #770ddc;
+    border-radius:10px;
+    color:white!important;
+    font-weight:500;
+}
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+    background: #770ddc;
+}
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: rgba(119, 13, 220, 0.25);
+    border-color: rgb(119, 13, 220);
+}
+.theme-dark .wrapper-3WhCwL {
+    background-color: rgba(119, 13, 220, 0.11);
+    color: #770ddc;
+}
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: rgba(255, 255, 255, 0.17);
+    color: #f00;
+}
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(119, 13, 220, 0.13);
+}
+.isMentionedCozy-3isp7y:after {
+    background: rgb(119, 13, 220);
+    border-left: 4px solid #770ddc;
+    border-radius: 3px 0 0 3px;
+    bottom: 0;
+    content: " ";
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+.theme-dark .markup-2BOw-j {
+    color: #ffffff;
+}
+.theme-dark .markup-2BOw-j pre {
+    background: rgba(119, 13, 220, 0.25);
+    border-color: rgb(119, 13, 220);
+}
+.theme-dark .hljs {
+    -webkit-text-size-adjust: none;
+    background: #002b36;
+    color: #ffffff;
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+}
+.theme-dark .homeIcon-1FoKUJ {
+    background: #770ddc;
+}
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
+    color: hsl(0, 0%, 100%);
+}
+.theme-dark .markup-2BOw-j code {
+    background: transparent;
+}
+.theme-dark .markup-2BOw-j code.inline {
+    background: rgba(119, 13, 220, 0.25);
 }
