@@ -2895,3 +2895,55 @@ transition: all 0.5s;
 .create-guild-container.deprecated {
     background-color: rgba(255, 255, 255, 0);
 }
+.contentSelectedText-3wUhMi .foreground-2W-aJk {
+    opacity: 1;
+    color: #25ff00;
+}
+.contentUnreadText-2vNnZc .foreground-2W-aJk {
+    opacity: 1;
+    color: red;
+}
+.theme-dark .autocomplete-1vrmpx {
+    background-color: rgba(119, 13, 220, 0.5) !important; 
+    border: 3px solid #770ddc;
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: #770ddc;
+}
+.theme-dark .contentTitle-2tG_sM {
+    color: #ffffff;
+}
+.theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8 {
+    color: #ffffff;
+}
+.theme-dark .descriptionDiscriminator-3vUOCc {
+    color: hsl(0, 0%, 100%);
+}
+.theme-dark .everyonePopout-nEbJY3 {
+    background-color: rgba(119, 13, 220, 0.5) !important;
+    border: 3px solid #770ddc;
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    border-color: rgba(114,137,218,.3);
+    color: #ffffff;
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    border-color: rgb(119, 13, 220);
+    color: #ffffff;
+}
+.theme-dark .footer-2aTx0s {
+    background-color: rgb(119, 13, 220);
+    color: #ffffff;
+}
+.theme-dark .buttonHint-2OxJB8 strong {
+    color: #ffffff;
+}
+.theme-dark .buttonHint-2OxJB8 {
+    color: #ffffff;
+}
+.body-2iXqIL strong {
+    color: #ffffff;
+}
+.body-2iXqIL {
+    color: #ffffff !important;
+}
