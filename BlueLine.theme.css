@@ -1,4 +1,4 @@
-//META{"name":"BlueLine","description":"TrueDark_With_BlueLine","author":"xNightWulf","version":"1.4"}*//{}
+//META{"name":"BlueLine","description":"TrueDark_With_BlueLine","author":"xNightWulf","version":"1.4.1"}*//{}
 
 .guilds-wrapper {
     background-color: #1f2123;
@@ -2223,4 +2223,10 @@ animation-timing-function: linear;
     border-radius: 10px;
     margin-left: 15px;
     background: linear-gradient(90deg,rgba(13, 99, 206, 0.30) 40%,rgba(3, 182, 236, 0.50));
+}
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: #1f2123;
+}
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background-color: #1f2123;
 }
