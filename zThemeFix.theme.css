@@ -1,4 +1,4 @@
-//META{"name":"ThemeFixer","description":"Fixes_All_Themes_Including_Themes_That_Have_Been_Broke_For_Ages","author":"xNightWulf","version":"1.4.2"}*//{}
+//META{"name":"ThemeFixer","description":"Fixes_All_Themes_Including_Themes_That_Have_Been_Broke_For_Ages","author":"xNightWulf","version":"1.5"}*//{}
 /*To change the brightness change the rgba(0,0,0,0.18) at the bottom*/
 /*Transparency*/
 #voice-connection, 
@@ -63,7 +63,12 @@
 .theme-dark .content-yTz4x3,
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .chat-3bRxxu form ,
-.theme-dark .guildsWrapper-5TJh6A{
+.theme-dark .guildsWrapper-5TJh6A,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .sidebarRegion-VFTUkN,
+.theme-dark .standardSidebarView-3F1I7i,
+.theme-dark .contentRegion-3nDuYy{
   background: transparent !important;
 }
 .theme-dark .card-2WxYqG {
