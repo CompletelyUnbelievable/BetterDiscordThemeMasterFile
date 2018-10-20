@@ -68,7 +68,10 @@
 .theme-dark .gameLibrary-TTDw4Y,
 .theme-dark .sidebarRegion-VFTUkN,
 .theme-dark .standardSidebarView-3F1I7i,
-.theme-dark .contentRegion-3nDuYy{
+.theme-dark .contentRegion-3nDuYy,
+.scroller-2FKFPG, 
+.sidebarRegion-VFTUkN, 
+.standardSidebarView-3F1I7i{
   background: transparent !important;
 }
 .theme-dark .card-2WxYqG {
